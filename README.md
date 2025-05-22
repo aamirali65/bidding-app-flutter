@@ -1,16 +1,41 @@
-# gobidder
+# Flutter Auction App 🛒📱
 
-A new Flutter project.
+A real-time **Bidding Auction App** built with **Flutter** and **Supabase**, featuring role-based authentication for buyers and sellers, live bidding functionality, and a clean, responsive UI.
 
-## Getting Started
+![App Preview](https://github.com/user-attachments/assets/6c19fc29-329f-464c-a7ef-145d50ce0c79)
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🔥 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🔐 Authentication (Supabase)
+- Email/password login
+- Role-based access: Buyer & Seller
+- Secure session management
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🛒 Buyer Functionality
+- Browse active auction items
+- Place live bids
+- Track current highest bids
+- View personal bid history
+
+### 🏷️ Seller Functionality
+- Add new auction items (title, image, description, base price)
+- Set start/end time for bidding
+- Monitor bids in real-time
+- Edit or delete products
+
+### ⚙️ Auction Logic
+- Real-time bid updates using Supabase Realtime
+- Winner auto-selection after auction ends
+- Notifications for highest bidder
+- Time-based control of auction lifecycle
+- 
+---
+
+## 🧰 Tech Stack
+
+- **Frontend:** Flutter (Dart)
+- **Backend:** Supabase (Auth, Realtime Database)
+- **Database:** Supabase PostgreSQL
+- **Storage:** Supabase Storage
